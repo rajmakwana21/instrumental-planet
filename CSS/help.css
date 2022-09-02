@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    margin: 0px 0px 0px 18px;
+}
+
+nav {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+
+
+}
+
+.logoimg {
+    height: 50px;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    margin: 0px 11px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+ul .help {
+    color: white;
+    margin: 0px 0px 0px 790px;
+}
+
+.navtrypremium {
+    background-color: rgb(211 69 20);
+    color: white;
+    display: flex;
+    height: 37px;
+    width: 138px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    position: absolute;
+    left: 89vw;
+}
+
+.loginimg {
+    height: 26px;
+    position: absolute;
+    left: 86vw;
+    top: 19px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+.nav-footer {
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nav-footer li {
+    margin: 15px 0px 0px 0px;
+}
+
+.nav {
+    display: grid;
+    margin: 26px 0px 0px 0px;
+}
+
+hr {
+    margin: 0px 83px;
+    position: relative;
+    top: 251px;
+}
+
+footer .nav-bottom {
+    display: flex;
+    justify-content: center;
+    height: 275px;
+    align-items: flex-end;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+
+.help{
+    background-color: #f7f5f1;
+    height: 75vh;
+}
+.p1-help {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 22px;
+padding: 26px 281px;
+text-align: center;
+color: black;
+
+}
+
+.h1-help{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 70px;
+color: #d12727;
+padding: 60px 0px 0px 0px;
+font-style: normal;
+}
+.main-help{
+display: flex;
+justify-content: center;
+
+}
+.search input[type="search"]
+{
+border: 1px solid #ddd;
+border-radius: 30px;
+box-sizing: border-box;
+color: #666;
+height: 48px;
+padding-left: 40px;
+padding-right: 20px;
+-webkit-appearance: none;
+width: 100%;}
+
+.search-icon {
+position: relative;
+top: 332px;
+transform: translateY(-50%);
+position: absolute;
+left: 440px;
+z-index: 1;
+width: 18px;
+height: 18px;
+color: #777;
+}
+.search.search-full{
+width: 675px;
+}
+.container .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -.2px;
+    text-transform: none;
+    color: #1b1c1e;
+    margin-bottom: 36px;
+}
+.body-text{
+    display: flex;
+    justify-content: center;
+    margin: 0px 344px;
+    font-size: 20px
+}
+.btn-contact{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.container .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 16px 52px;
+    font-style: normal;
+    background-color: #00d296;
+    border-radius: 60px;
+    text-transform: none;
+    color: #1b1c1e;
+    margin-bottom: 80px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    margin: 33px 673px;
+}
+.container{
+    height: 270px;
+}
+.blankspace{
+    background-color: white;
+    height: 20vh;
+}
+.body-para{
+    display: flex;
+    justify-content: center;
+}

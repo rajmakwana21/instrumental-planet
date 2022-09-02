@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    margin: 0px 0px 0px 18px;
+}
+
+nav {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+
+
+}
+
+.logoimg {
+    height: 50px;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    margin: 0px 11px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+ul .help {
+    color: white;
+    margin: 0px 0px 0px 790px;
+}
+
+.navtrypremium {
+    background-color: rgb(211 69 20);
+    color: white;
+    display: flex;
+    height: 37px;
+    width: 138px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    position: absolute;
+    left: 89vw;
+}
+.trypremiumbutton {
+    text-decoration: none;
+    color: white;}
+
+.loginimg {
+    height: 26px;
+    position: absolute;
+    left: 86vw;
+    top: 19px;
+}
+
+#nav-footer {
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+.nav-footer {
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nav-footer li {
+    margin: 15px 0px 0px 0px;
+}
+
+.nav {
+    display: grid;
+    margin: 26px 0px 0px 0px;
+}
+
+hr {
+    margin: 0px 83px;
+    position: relative;
+    top: 251px;
+}
+
+#nav-footer .nav-bottom {
+    display: flex;
+    justify-content: center;
+    height: 275px;
+    align-items: flex-end;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+ /* contactus page css start from here */ /* contactus page css start from here */ 
+ /* contactus page css start from here */ /* contactus page css start from here */
+ /* contactus page css start from here */ /* contactus page css start from here */
+
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    font-family: aktiv-grotesk, Inter, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #383635;
+   
+}
+
+.contact-title{
+    margin: 0px 0px 30px 0px;
+    font-size: 45px;
+}
+a {
+    margin: 5px 0px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-container {
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    font-weight: 500;
+    width: 55vw;
+  margin: 40px 0px;
+}
+
+#email {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.email-para {
+    font-size: 10px;
+}
+
+#email-title {
+    font-size: 17px;
+}
+
+#Subject {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+#description-title {
+    padding: 20px 0px 4px 0px;
+    display: inline-block;
+}
+
+#Description {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 178px;
+}
+
+#Description-para {
+    font-size: 10px;
+}
+
+.upload-dropzone {
+    border-radius: 25px;
+}
+
+.upload-dropzone input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.upload-dropzone {
+    border-radius: 25px;
+}
+
+.upload-dropzone {
+    border: 1px solid #ddd;
+    font-size: 12px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.add-file {
+    margin: 9px 0px;
+    display: inline-block;
+}
+
+.submit {
+    background-color: rgb(211 69 20);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 3.2;
+    width: 190px;
+    padding: 0 1.9286em;
+    margin: 57px 0px 0px 0px;
+}
+
+.email-para {
+    color: #5a6d7c;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.Description-para {
+    color: #5a6d7c;
+    font-size: 12px;
+    margin: 0 0 35px 0;
+}
+
+.subject-para {
+    color: #5a6d7c;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.add-file{
+    color: #5a6d7c;
+font-size: 12px;
+
+}
+
+.submit-link{
+text-decoration: none;
+color: white;
+font-weight: 700;
+margin: 0;
+padding: 0;
+}
