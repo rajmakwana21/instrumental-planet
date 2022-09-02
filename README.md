@@ -1,1 +1,1 @@
-# instrumental-planet.com
+# instrumental-planet
